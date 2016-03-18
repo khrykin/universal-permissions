@@ -137,7 +137,7 @@ One can imagine such [Express](https://github.com/expressjs/express) setup:
 /* We update only if we CAN, otherwise we see an error */
  app.get('/api/comment/:id/edit',
   getComment,
-  ifCan('edit', 'post'),
+  ifCan('edit', 'comment'),
   ({ body }, res, next) => {
     Post
       .update(body)

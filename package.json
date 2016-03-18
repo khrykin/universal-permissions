@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khrykin/universal-permissons.git"
+    "url": "git+https://github.com/khrykin/universal-permissions.git"
   },
   "bugs": {
-    "url": "https://github.com/khrykin/universal-permissons/issues"
+    "url": "https://github.com/khrykin/universal-permissions/issues"
   },
-  "homepage": "https://github.com/khrykin/universal-permissons#readme",
+  "homepage": "https://github.com/khrykin/universal-permissions#readme",
   "author": "Dmitry Khrykin",
   "license": "MIT",
   "devDependencies": {
