@@ -127,7 +127,7 @@ One can imagine such [Express](https://github.com/expressjs/express) setup:
 
  const ifCan = (action, type) => {
    return (req, res, next) => {
-     if (can(req.user, action, { type: req[type] })) {
+     if (can(req.user, action, { [type]: req[type] })) {
        return next();
      }
      res.status(403).end('Forbidden');
