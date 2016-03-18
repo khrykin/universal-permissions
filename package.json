@@ -1,6 +1,6 @@
 {
   "name": "universal-permissions",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": " Super easy to use javascript `can`-style permission management library. Not relying on prototypes — share same permissions across client and server.",
   "main": "lib/index.js",
   "scripts": {
